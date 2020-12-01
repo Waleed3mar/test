@@ -1,0 +1,114 @@
+#sec1{
+    margin:150px 0px ;
+    height: 350px;
+    width: 100%;
+    background-color: #F8F7FD;
+    line-height: 1.7;
+}
+
+.main{height: 100%;
+padding:0px 150px ;}
+
+.mainText{
+    float: left;
+    width: 45%;
+    margin-right: 50px;
+    padding:50px  0px ;
+}
+.mainText i {
+    position: absolute;
+    left: 160px;
+    color: rgba(255, 0, 0,.2);
+}
+.mainText p{
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.mainText h1{
+    quotes: "“" "„" "‚" "‘";
+    color: rgb(209, 2, 2);
+}
+
+.mainImage{
+    background-image: url('https://i.ibb.co/fnnhWkW/1.jpg');
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-attachment: unset;
+    background-size: cover;
+}
+
+.mainImage img {
+    border:5px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 60px;
+}
+#i1st{
+    right: 385px;
+}
+#i2nd{
+    right:260px;
+}
+
+#i3rd{
+    right:510px;
+}
+
+#sec2{
+    text-align: center;
+    height: 550px;
+    width: 100%;
+}
+
+#sec2 h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.updates{
+    height: 350px;
+    /* width: 100%; */
+    padding: 0px 105px 40px 130px;
+    text-align: center;
+}
+
+.updates div{
+    float: left;
+    padding: 20px;
+    margin: 0px 10px;
+    width: 27%;
+    max-width: 29%;
+    max-height: 350px;
+    background-color: #F8F7FD;
+    text-align: left;
+    
+}
+
+.profImg {
+    width: 270px; 
+    height: 190px;
+    border-radius: 5px;
+}
+.insiupdat div{
+    width: 273px;
+    padding: 0px 0px 0px;
+}
+.profImg1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.imgCap{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgCap span, .imgCap i {
+    padding:10px 0px;
+    margin-right: 10px;
+}
