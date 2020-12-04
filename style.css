@@ -1,3 +1,5 @@
+
+
 #sec1{
     margin:150px 0px ;
     height: 350px;
@@ -38,6 +40,7 @@ padding:0px 150px ;}
     height: 100%;
     background-attachment: unset;
     background-size: cover;
+    position: relative;
 }
 
 .mainImage img {
@@ -45,17 +48,17 @@ padding:0px 150px ;}
     width: 100px;
     height: 100px;
     position: absolute;
-    bottom: 60px;
+    bottom: 20px;
 }
 #i1st{
-    right: 385px;
+    right: 10px;
 }
 #i2nd{
-    right:260px;
+    right:130px;
 }
 
 #i3rd{
-    right:510px;
+    right:250px;
 }
 
 #sec2{
@@ -81,7 +84,6 @@ padding:0px 150px ;}
     padding: 20px;
     margin: 0px 10px;
     width: 27%;
-    max-width: 29%;
     max-height: 350px;
     background-color: #F8F7FD;
     text-align: left;
@@ -94,7 +96,6 @@ padding:0px 150px ;}
     border-radius: 5px;
 }
 .insiupdat div{
-    width: 273px;
     padding: 0px 0px 0px;
 }
 .profImg1 {
@@ -111,4 +112,61 @@ padding:0px 150px ;}
 .imgCap span, .imgCap i {
     padding:10px 0px;
     margin-right: 10px;
+}
+
+
+@media (max-width:767px) {
+
+    .profImg{width: 408px;}
+
+    .imgCap{width: 270px;}
+    
+    .updates{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .updates div{
+        display: block;
+        width: 475px;
+    }
+    .insiupdat p{
+        width: 415px;
+    }
+    #sec2{float: left;}
+    #sec2 h1 {
+        margin-left:20px ;
+        margin-bottom:9px ;
+        text-align: left;
+    }
+    .main{padding-right: 0px;line-height: 1.3;}
+    .mainImage img {
+        width: 50px;
+        height: 70px;
+        position: static;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .updates div{
+        width: 265.797px;
+        padding-right: 20px;
+    }
+    .updates {
+        padding-left: 80px;
+        padding-right: 0px;
+    }
+
+    .main{padding-right: 0px;}
+
+    .mainImage img {
+        width: 50px;
+        height: 70px;
+        position: static;
+    }
+}
+
+@media (min-width: 3000px){
+html{
+    padding: 0px  25%;
+}
 }
